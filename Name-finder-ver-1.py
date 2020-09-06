@@ -5,7 +5,7 @@ letter/letters from a name database."
 
 This is version 1.0 of the script.
 Issues: If I give input "Ana" it includes "Bahana" in results.
-It should have print only "Anari" and "Ana".
+It should have printed only "Anari" and "Ana".
 In version 2.0 I will solve this bug.
 """
 
