@@ -15,12 +15,12 @@ morse_dict = { 'A':'.-', 'B':'-...',
             '(':'-.--.', ')':'-.--.-'}
 
 sentence1 = "HELLO HELLO2"
-sentence2 = ".... . .-.. .-.. ---"
+sentence2 = ".... . .-.. .-.. ---   .... . .-.. .-.. --- ..---"
 
 a = ""
 for i in sentence1:
     if i == " ":
-        a += "   "
+        a += "  "
     elif i != " ":
         a += morse_dict[i] + " "
 
