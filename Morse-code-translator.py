@@ -23,7 +23,7 @@ morse_dict = { 'A':'.-', 'B':'-...',
 # sentence_c = "···· · −·−−   ·−−− ··− −·· ·"
 def eng_to_morse(s):
     a = ""
-    s2 = s.upper()
+    s2 = s.strip().upper()
     for i in s2:
         if i == " ":
             a += "  "
@@ -33,7 +33,7 @@ def eng_to_morse(s):
 
 
 def morse_to_eng(s):
-    s2 = s.split("   ")
+    s2 = s.strip().split("   ")
     a = ""
     for word in s2:
         ch = word.split(" ")
