@@ -1,5 +1,5 @@
 """
-Additional Contribution: Shubhankar31 (using string.split() concept.)
+Additional Contribution: Shubhankar31 (using string.split() concept)
 """
 
 morse_dict = { 'A':'.-', 'B':'-...',
@@ -20,7 +20,7 @@ morse_dict = { 'A':'.-', 'B':'-...',
 
 # sentence1 = "HELLO HELLO2"
 # sentence2 = ".... . .-.. .-.. ---   .... . .-.. .-.. --- ..---"
-
+# sentence_c = "···· · −·−−   ·−−− ··− −·· ·"
 def eng_to_morse(s):
     a = ""
     s2 = s.upper()
@@ -61,3 +61,7 @@ def main():
 
 
 main()
+
+
+# To interchange the keys and values in a python dictionary
+# dict2 = dict(zip(dict1.values(), dict1.keys()))
