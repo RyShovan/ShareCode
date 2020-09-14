@@ -1,7 +1,7 @@
 """
 Script Concept by Pritam.
 "Let's write a script which will give us the iterate number of
-every unique element in that list"
+every unique element in a list"
 """
 
 name_list = ["Anari", "kamal", "Bahana", "Ana", "Partha", "kamal", "Bahana", "Bahana", "Bahana"]
